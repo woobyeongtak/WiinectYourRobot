@@ -18,7 +18,7 @@ public class Ctrl implements ItfCtrlIhm, ItfCtrlWrk{
     private ItfWrkCtrl refWrk;
     
     public void start(){
-        
+        refIhm.start(null);
     }
     
     @Override
