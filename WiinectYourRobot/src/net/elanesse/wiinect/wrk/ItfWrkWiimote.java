@@ -17,4 +17,12 @@ public interface ItfWrkWiimote {
     void boutonBDown();
     void boutonUnDown();
     void boutonDeuxDown();
+    void boutonUpUp();
+    void boutonDownUp();
+    void boutonRightUp();
+    void boutonLeftUp();
+    void boutonAUp();
+    void boutonBUp();
+    void boutonUnUp();
+    void boutonDeuxUp();
 }

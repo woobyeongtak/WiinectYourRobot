@@ -7,6 +7,7 @@ package net.elanesse.wiinect.wrk;
 import java.awt.image.BufferedImage;
 import net.elanesse.wiinect.beans.ItfKinectWrk;
 import net.elanesse.wiinect.beans.ItfWiimoteWrk;
+import net.elanesse.wiinect.beans.Kinect;
 import net.elanesse.wiinect.ctrl.ItfCtrlWrk;
 
 /**
@@ -19,6 +20,10 @@ public class Wrk implements ItfWrkCtrl, ItfWrkKinect, ItfWrkWiimote, ItfWrkCamer
     private ItfKinectWrk refKinect;
     private ItfWiimoteWrk refWiimote;
 
+    public Wrk(){
+        
+    }
+    
     @Override
     public void boutonUpDown() {
         throw new UnsupportedOperationException("Not supported yet.");
