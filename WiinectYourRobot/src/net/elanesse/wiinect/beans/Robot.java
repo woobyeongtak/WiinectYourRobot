@@ -40,19 +40,27 @@ public class Robot {
     }
     
     public void levePince(){
-        
+        COM_PORT.ecrire("W,96,39,FF");
+        COM_PORT.ecrire("W,96,35,58");
+        COM_PORT.ecrire("W,96,36,1B");
     }
     
     public void baissePince(){
-        
+        COM_PORT.ecrire("W,96,39,FF");
+        COM_PORT.ecrire("W,96,35,00");
+        COM_PORT.ecrire("W,96,36,00");
     }
     
     public void ouvrePince(){
-        
+        COM_PORT.ecrire("W,96,3A,FF");
+        COM_PORT.ecrire("W,96,37,EC");
+        COM_PORT.ecrire("W,96,38,13");
     }
     
     public void fermePince(){
-        
+        COM_PORT.ecrire("W,96,3A,FF");
+        COM_PORT.ecrire("W,96,37,00");
+        COM_PORT.ecrire("W,96,38,00");
     }
     
     public void requeteFermeture(){
