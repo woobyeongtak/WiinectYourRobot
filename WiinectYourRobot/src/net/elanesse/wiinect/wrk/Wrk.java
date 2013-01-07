@@ -97,6 +97,46 @@ public class Wrk implements ItfWrkCtrl, ItfWrkKinect, ItfWrkWiimote, ItfWrkCamer
     public void setRefWiimote(ItfWiimoteWrk refWiimote) {
         this.refWiimote = refWiimote;
     }
+
+    @Override
+    public void boutonUpUp() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public void boutonDownUp() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public void boutonRightUp() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public void boutonLeftUp() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public void boutonAUp() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public void boutonBUp() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public void boutonUnUp() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public void boutonDeuxUp() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
     
     
 }
